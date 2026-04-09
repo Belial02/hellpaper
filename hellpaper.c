@@ -392,7 +392,7 @@ static void LoadWallpapers(const char *dir)
             continue;
         }
         const char *ext = strrchr(entry->d_name, '.');
-        if (!ext || (strcasecmp(ext, ".jpg") != 0 && strcasecmp(ext, ".jpeg") != 0 && strcasecmp(ext, ".png") != 0))
+        if (!ext || (strcasecmp(ext, ".jpg") != 0 && strcasecmp(ext, ".jpeg") != 0 && strcasecmp(ext, ".png") != 0 && strcasecmp(ext, ".gif") != 0))
         {
             continue;
         }
